@@ -1,98 +1,52 @@
+#title {
+	position:absolute;
+	margin-left: 930px;
+	margin-top: 5px;
+	text-align:right;
 
-body {
- 
-    text-align: center;
-    overflow: hidden;
-}
-div {
-    background-color: red;
-    display: inline-block;
-    width: 4px;
-    vertical-align: middle; /* Feel free to change this value, here are your options: baseline | sub | super | top | text-top | middle | bottom | text-bottom | <percentage> | <length> | inherit */
-    
-    /* Fix for IE7 and below */
-    zoom: 1;
-    *display: inline;
 }
 
 
-.special {
-	background-color: orange;
-   height: 1000px;
-   width: 2px;
-   transition: transform 0.5s;
+#one {
+	position:absolute;
+	margin-top: 60px;
+	height: 200px;
+	width:100px;
+	text-align:right;
+	margin-left: 1000px;
 }
 
-
-
-  
-
-.one {
-	 background-color: red;
-    height: 1000px;
-    width: 2px;
-   transition: transform 0.5s;
+#two {
+	position:absolute;
+	margin-top: 60px;
+	height: 200px;
+	width:100px;
+	text-align:right;
+margin-left: 1200px;
 }
 
 
 
-
-
-
-.two{
-	 background-color: blue;
-    height: 1000px;
-      transition: transform 0.5s;
+#three {
+		position:absolute;
+		margin-top: 60px;
+		height: 200px;
+		width:100px;
+	    text-align:right;
+	    margin-left: 800px;
+	
 }
 
 
-
-.two:hover {
-  transform: translate(100px, 5px);
-  transform: scale(30);
-}
-
-
-
-.three {
-	 background-color: green;
-    height: 1000px;
-     width: 2px;
-    transition: transform 0.5s;
-}
-
-.four {
-	 background-color: purple;
-    height: 1000px;
-    transition: transform 0.5s;
-}
-
-.four:hover {
-  transform: translate(100px, 5px);
-  transform: scale(5);
-}
-
-
-.five{
- background-color: white;
-    height: 1000px;
-    margin-left: 60px;
-     width: 2px;
-    transition: transform 0.5s;
-}
-
-.six{
- background-color: black;
-    height: 1000px;
-      width: 50px;
-      transition: transform 0.5s;
-}
-
-.six:hover {
-  transform: translate(100px, 5px);
-  transform: scale(100);
+#four {
+	position:absolute;
+	margin-top: 400px;
+	width:450px;
+	text-align:left;
+	 margin-left: 100px;
 
 }
+
 
 
 
